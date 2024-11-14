@@ -1,0 +1,59 @@
+ html body {
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-image: url('foto.jpg') ;  /* Ganti '/path/to/your/image.png' dengan path gambar */
+    background-size: cover; /* Membuat background menutupi seluruh layar */
+    background-position: center; /* Menempatkan background di tengah */
+  
+    
+ }
+ .global-container {
+    height: 100vh;
+    display: flex;
+    padding-left: 130px;
+    padding-top: 60px;
+    color: #48e248;
+ }
+ .login-form {
+    width: 380px;
+    height: 450px;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: black !important;
+    border-radius: 10px !important;
+ }
+ .card-text {
+    padding-bottom: 10px;
+ }
+ input[type="email"],
+input[type="password"] {
+  background: #222d32;
+  color: whitesmoke;
+  border: 2px solid #00ff00;
+  border-radius:10px;
+  margin-bottom: 25px; 
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    outline: none;
+    background: #1a2226;
+    border: none;
+    color: whitesmoke;
+    margin: 0;
+}
+.card-title {
+    font-weight: 800;
+    padding-top: 20px;
+}
+.btn {
+    background: #48e248 !important;
+    color: black !important;
+    transform: translateY(10px);
+    font-size: 14px;
+    border-radius: 10px;
+
+}
