@@ -32,7 +32,7 @@
 input[type="password"] {
   background: #222d32;
   color: whitesmoke;
-  border: 2px solid yellow;
+  border: 2px solid #00ff00;
   border-radius:10px;
   margin-bottom: 25px; 
 
